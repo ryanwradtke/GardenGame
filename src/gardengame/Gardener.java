@@ -59,7 +59,7 @@ public class Gardener implements Serializable {
     }
 
     public String prntSpot(Locator loc) {
-        return garden.get(loc).toString();
+        return (garden.get(loc)).toString();
     }
 
     public String prntRow(Set rowSet) {
