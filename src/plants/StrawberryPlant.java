@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Plants;
+package plants;
 
-import Produce.ProduceInterface;
+import produce.ProduceInterface;
 import java.util.ArrayList;
 import java.util.List;
 

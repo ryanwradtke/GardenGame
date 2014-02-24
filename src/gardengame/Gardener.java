@@ -1,6 +1,6 @@
 package gardengame;
 
-import Produce.ProduceInterface;
+import produce.ProduceInterface;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -132,11 +132,11 @@ public class Gardener implements Serializable {
 
                 switch (menuChoice) {
                     case 1: {
-                        (garden.get(loc)).setPlant(new Plants.OnionPlant());
+                        (garden.get(loc)).setPlant(new plants.OnionPlant());
                         break;
                     }
                     case 2: {
-                        (garden.get(loc)).setPlant(new Plants.StrawberryPlant());
+                        (garden.get(loc)).setPlant(new plants.StrawberryPlant());
                         break;
                     }
                 }
@@ -170,13 +170,13 @@ public class Gardener implements Serializable {
                     case 1:
                         for (Object loc : row) {
                             (garden.get((Locator) loc))
-                                    .setPlant(new Plants.OnionPlant());
+                                    .setPlant(new plants.OnionPlant());
                         }
                         break;
                     case 2:
                         for (Object loc : row) {
                             (garden.get((Locator) loc))
-                                    .setPlant(new Plants.StrawberryPlant());
+                                    .setPlant(new plants.StrawberryPlant());
                         }
                         break;
                 }

@@ -1,6 +1,6 @@
 package gardengame;
 
-import Plants.Plant;
+import plants.Plant;
 import java.io.Serializable;
 
 public class GardenSpot implements Serializable {

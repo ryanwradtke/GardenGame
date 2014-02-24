@@ -1,4 +1,4 @@
-package Plants;
+package plants;
 
 import gardengame.Randomizer;
 import java.io.Serializable;
