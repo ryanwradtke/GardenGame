@@ -105,9 +105,7 @@ public class Gardener implements Serializable {
         for (int x = 0; x < gardenSize; x++) {
             for (int y = 0; y < gardenSize; y++) {
                 //Add random to GardenSpot.soilQlty and .sunLte
-                GardenSpot spot = new GardenSpot(10, 5, null, false);
-                Locator loc = new Locator(x, y);
-                garden.put(loc, spot);
+                garden.put(new Locator(x, y), new GardenSpot(10, 5, null, false));
             }
         }
     }
