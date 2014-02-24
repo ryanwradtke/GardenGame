@@ -1,6 +1,6 @@
 package Plants;
 
-import garden.game.Randomizer;
+import gardengame.Randomizer;
 import java.io.Serializable;
 
 /**

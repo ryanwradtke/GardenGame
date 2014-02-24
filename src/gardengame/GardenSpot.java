@@ -1,4 +1,4 @@
-package garden.game;
+package gardengame;
 
 import Plants.Plant;
 import java.io.Serializable;

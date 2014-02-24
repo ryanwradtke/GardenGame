@@ -1,4 +1,4 @@
-package garden.game;
+package gardengame;
 
 import java.io.Serializable;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package garden.game;
+package gardengame;
 
 public class Randomizer {
 

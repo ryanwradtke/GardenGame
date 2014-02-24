@@ -1,4 +1,4 @@
-package garden.game;
+package gardengame;
 
 import Produce.ProduceInterface;
 import java.io.FileInputStream;
@@ -72,8 +72,7 @@ public class Gardener implements Serializable {
                     .append("\n");
         }
 
-        String prntRow = sb.toString();
-        return prntRow;
+        return sb.toString();
     }
 
     public String prntGarden() {
@@ -85,8 +84,7 @@ public class Gardener implements Serializable {
                     .append("\n");
         }
 
-        String prntGarden = sb.toString();
-        return prntGarden;
+        return sb.toString();
     }
 
     public void reviewForcast() {

@@ -1,4 +1,4 @@
-package garden.game;
+package gardengame;
 
 import java.util.Scanner;
 import java.util.Set;
